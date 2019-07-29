@@ -47,12 +47,12 @@ use SendinBlueTracker;
 SendinBlueTracker::event(
     'christian.braybrooke@gmail.com',
     'eventName',
-  // Event Data
+  	// Event Data
     [
       'CTA_URL' => 'https://www.example.com',
       'COST' => '20.00'
     ],
- 	// User Data
+  	// User Data
     [
       'FIRSTNAME' => 'Chris'
     ],
