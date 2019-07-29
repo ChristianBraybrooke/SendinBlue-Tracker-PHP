@@ -1,6 +1,6 @@
-#Sendinblue Tracker SDK For PHP
+# Sendinblue Tracker SDK For PHP
 
-##Installation
+## Installation
 
 ```php
 composer require chrisbraybrooke/sendinblue-tracker
