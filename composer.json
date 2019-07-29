@@ -1,0 +1,33 @@
+{
+    "name": "chrisbraybrooke/sendinblue-tracker",
+    "authors": [
+        {
+            "name": "Christian Braybrooke",
+            "email": "chris@purplemountmedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChrisBraybrooke\\SendinBlueTracker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChrisBraybrooke\\SendinBlueTracker\\ServiceProvider"
+            ],
+            "aliases": {
+                "SendinBlueTracker": "ChrisBraybrooke\\SendinBlueTracker\\Facades\\SendinBlueTracker"
+            }
+        }
+    },
+    "prefer-stable": true
+}
