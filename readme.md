@@ -1,6 +1,6 @@
-## Sendinblue Tracker SDK For PHP
+#Sendinblue Tracker SDK For PHP
 
-### Installation
+##Installation
 
 ```php
 composer require chrisbraybrooke/sendinblue-tracker
@@ -8,7 +8,7 @@ composer require chrisbraybrooke/sendinblue-tracker
 
 
 
-#### **Laravel Usage**
+###Laravel Usage
 
 Laravel will autodiscover our service provider and register the alias. The only additional setup is to add the following to your config/services.php and .ENV files.
 
