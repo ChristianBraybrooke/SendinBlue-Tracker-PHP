@@ -36,7 +36,7 @@ trait MakesHttpRequests
         $response = $this->guzzle->request($verb, $uri,
             empty($payload) ? [] : ['json' => $payload]
         );
-        if ($response->getStatusCode() != 200) {
+        if ($response->getStatusCode() >= 400) {
             return $this->handleRequestError($response);
         }
         $responseBody = (string) $response->getBody();
